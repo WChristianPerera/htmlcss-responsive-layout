@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.big-container{
+    max-width: 1200px;
+    margin-inline: auto;
+}
+
+.small-container{
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+p{
+    line-height: 1.5rem;
+}
+/* Header */
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #0084FD;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+nav .big-container{
+    height: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.hide-menu{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    align-items: baseline;
+    gap: 2rem;
+}
+
+.nav-btn{
+    background-color: white;
+    color: black;
+    border-radius: 2rem;
+    padding: 0.5rem 0.7rem;
+}
+
+/* Main */
+
+/* Section Demo-application */
+
+.Demo-application{
+    padding-top: 150px;
+    padding-bottom: 160px;
+}
+
+.Cells{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.box{
+    background-color: #B5DDFF;
+    border-radius: 2rem;
+    line-height: 1.5rem;    
+}
+
+.cell{
+    flex: 0 0 calc((100% - 3rem) / 3 );
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 2rem;
+}
+
+.icons{
+    font-size: 5rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.icons,h4{
+    color: #0084FD;
+}
+
+.big-cell{
+    display: flex;
+    flex: 0 0 calc(2 * ((100% - 3rem) / 3) + 1.5rem);
+    justify-content: space-between;
+    padding: 2rem 0 0 2rem;
+}
+ 
+.phone-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.store-btn{
+    display: inline-block;
+    background-color: #0084FD;
+    border-radius: 2rem;
+    padding: 0.5rem 0.7rem;
+}
+
+.phone{
+    width: 100%;
+}
+
+/* Section Planning */
+
+.Planning{
+    background-color: #9792E4;
+}
+
+
+.Plan{
+    display: flex;
+    padding: 30px;
+
+}
+
+.Plan .small-container{
+    width: 100%;
+}
+
+.first-plan{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5rem;
+}
+
+.first-plan,.second-plan{
+    flex-basis: calc((100% - 1.5rem) / 2);
+    padding: 3rem;
+}
+
+.form{
+    width: 100%;
+}
+
+.second-plan{
+    background-color: white;
+    text-align: center;
+    line-height: 3rem;
+}
