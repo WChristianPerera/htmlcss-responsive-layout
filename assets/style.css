@@ -119,18 +119,24 @@ h4{
 .phone-text{
     display: flex;
     flex-direction: column;
-    row-gap: 2rem;
+    row-gap: 4rem;
+    flex-basis: 50%;
+}
+
+.big-cell img{
+    min-width: 0;
+    width: 100%;
+    flex-basis: 50%;
+    justify-self: flex-end;
+
 }
 
 .store-btn{
     display: inline-block;
     background-color: #0084FD;
     border-radius: 2rem;
-    padding: 0.5rem 0.7rem;
-}
-
-.phone{
-    width: 100%;
+    padding: 0.5rem 3rem;
+    
 }
 
 /* Section Planning */
@@ -169,4 +175,39 @@ h4{
     background-color: white;
     text-align: center;
     line-height: 3rem;
+}
+
+/* Section Testimonials */
+
+.intro-text{
+    text-align: center;
+    line-height: 4rem;
+}
+
+.rounded-photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.partner{
+    background-color: #9792E4;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8rem;
+    padding: 1.5rem 1rem;
+    border-radius: 3rem;
+}
+
+h5{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}
+
+.info{
+    color: white;
+    
 }
